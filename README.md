@@ -1,34 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Barber Pro
 
-## Getting Started
+# Sobre o projeto
 
-First, run the development server:
+Este projeto é um sistema de uma barbearia que o usuário consegue registrar um modelo de corte definindo o preço e pode atualizar depois.
+Também é possivel registrar os clientes informando o nome e o modelo de corte que vai ser realizado. Na agenda pode verificar todos os clientes registrados e é possível abrir um registro e finalizar o serviço.
+O sistema possui uma opção de comprar um plano premium, foi utilizado Stripe como um sistema de pagamentos.
+
+## Layout Web 
+
+<div style="display: flex; flex-wrap: wrap;">
+<img src="./public/barberpro.gif" alt="Layout Barber Pro">
+
+</div>
+
+## Layout Mobile
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="./public/login.png" alt="Login" style='width:250px'/>
+    <img src="./public/cadastro.png" alt="Cadastro" style='width:250px'/>
+    <img src="./public/menu-lateral.png" alt="Menu lateral" style='width:250px'/>
+    <img src="./public/agenda.png" alt="Agenda Barber Pro" style='width:250px'/>
+    <img src="./public/minha-conta.png" alt="Minha Conta" style='width:250px'/>
+    <img src="./public/modelos-de-corte.png" alt="Modelos de corte" style='width:250px'/>
+    <img src="./public/cadastrar-modelo.png" alt="Cadastrar modelo" style='width:250px'/> 
+    <img src="./public/planos.png" alt="Planos" style='width:250px'/>
+</div>
+
+
+# Tecnologias utilizadas 
+
+- Next.Js
+- React.Js
+- TypeScript
+- Stripe
+- Chakra UI
+
+# Pré requisitos
+
+ - Node.js e sistema backend rodando: 
 
 ```bash
-npm run dev
-# or
-yarn dev
+ # Baixar backend
+ git clone https://github.com/leowingss/backend-barberpro.git
+
+ # Instalar dependências e executar o projeto
+ yarn install 
+ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# Como rodar o projeto
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash 
+git clone https://github.com/leowingss/sistema-barbearia.git
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Entrar na pasta
+cd sistema-barbearia
 
-## Learn More
+# Instalar dependências
+yarn install ou npm install
 
-To learn more about Next.js, take a look at the following resources:
+# Executar o projeto
+yarn dev ou npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Abrir projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Entrar no http://localhost:3000
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+``` 
