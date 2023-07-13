@@ -20,7 +20,6 @@ O sistema possui uma opção de comprar um plano premium, foi utilizado Stripe c
     <img src="./public/cadastro.png" alt="Cadastro" style='width:250px'/>
     <img src="./public/menu-lateral.png" alt="Menu lateral" style='width:250px'/>
     <img src="./public/agenda.png" alt="Agenda Barber Pro" style='width:250px'/>
-    <img src="./public/minha-conta.png" alt="Minha Conta" style='width:250px'/>
     <img src="./public/modelos-de-corte.png" alt="Modelos de corte" style='width:250px'/>
     <img src="./public/cadastrar-modelo.png" alt="Cadastrar modelo" style='width:250px'/> 
     <img src="./public/planos.png" alt="Planos" style='width:250px'/>
